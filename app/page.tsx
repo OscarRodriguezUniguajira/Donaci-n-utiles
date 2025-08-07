@@ -12,9 +12,9 @@ export default function HomePage() {
 
   // AQUÍ PUEDES CAMBIAR LAS IMÁGENES DEL CARRUSEL PRINCIPAL
   const heroImages = [
-    "/imagenes/donacion1.webp",
-    "/imagenes/carrusel2.png", 
-    "/imagenes/carrusel3.avif"
+    "/donacion1.webp",
+    "/carrusel2.png", 
+    "/carrusel3.avif"
   ]
 
   // INFORMACIÓN DE LOS COLEGIOS (sin números inventados)
@@ -22,12 +22,12 @@ export default function HomePage() {
     {
       nombre: "Madre Verónica",
       // REEMPLAZA ESTA IMAGEN: Pon aquí la foto del Colegio Madre Verónica
-      imagen: "/imagenes/madreveronica.jpg"
+      imagen: "/madreveronica.jpg"
     },
     {
       nombre: "Eusebio Séptimo Mary", 
       // REEMPLAZA ESTA IMAGEN: Pon aquí la foto del Colegio Eusebio Séptimo Mary
-      imagen: "/imagenes/eusebio.jpg"
+      imagen: "/eusebio.jpg"
     }
   ]
 
@@ -57,10 +57,10 @@ export default function HomePage() {
 
   // AQUÍ PUEDES CAMBIAR LAS IMÁGENES DE ÚTILES DONADOS
   const utilesDonadosImages = [
-    "/imagenes/regla.webp",
-    "/imagenes/lapices.jpg",
-    "/imagenes/lapiceros.webp",
-    "/imagenes/cuuadernos.jpg",
+    "/regla.webp",
+    "/lapices.jpg",
+    "/lapiceros.webp",
+    "/cuuadernos.jpg",
 
   ]
 
