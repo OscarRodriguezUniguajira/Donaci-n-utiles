@@ -92,7 +92,7 @@ export default function HomePage() {
                 <BookOpen className="h-6 w-6 text-white" />
               </div>
               <h1 className="text-xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-                Útiles para Todos
+                EDUCATRUEQUE
               </h1>
             </div>
             <nav className="hidden md:flex space-x-6">
