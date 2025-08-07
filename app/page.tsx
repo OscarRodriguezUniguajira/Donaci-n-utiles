@@ -409,6 +409,21 @@ export default function HomePage() {
                 © 2025 Útiles para Todos. Hecho con ❤️ para cambiar el mundo, un niño a la vez.
               </p>
             </div>
+            <div className="border-t border-gray-800 pt-8">
+              <p className="text-gray-500">
+                EDUCATRUEQUE
+              </p>
+            </div>
+            <div className="border-t border-gray-800 pt-8">
+              <p className="text-gray-500">
+                +57 305 3501972
+              </p>
+            </div>
+            <div className="border-t border-gray-800 pt-8">
+              <p className="text-gray-500">
+                Educatrueque4@gmail.com
+              </p>
+            </div>
           </div>
         </div>
       </footer>
