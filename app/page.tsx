@@ -4,12 +4,11 @@ import { useState, useEffect } from "react"
 import Image from "next/image"
 import { Card, CardContent } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
-import { Heart, Users, BookOpen, GraduationCap, ChevronLeft, ChevronRight, Star, Gift, Target, Smile, TrendingUp, Shield, Lightbulb, Award, CheckCircle, AlertCircle, School, MapPin, PenTool, Ruler, NotebookPen, Scissors, Palette } from 'lucide-react'
+import { Heart, Users, BookOpen, GraduationCap, ChevronLeft, ChevronRight, Star, Gift, Target, Smile, TrendingUp, Shield, Lightbulb, Award, CheckCircle, AlertCircle, School, MapPin, PenTool, Ruler, NotebookPen, Scissors, Palette, Phone, Mail } from 'lucide-react'
 
 export default function HomePage() {
   const [currentSlide, setCurrentSlide] = useState(0)
   
-
   // AQUÍ PUEDES CAMBIAR LAS IMÁGENES DEL CARRUSEL PRINCIPAL
   const heroImages = [
     "/Donaci-n-utiles/donacion1.webp",
@@ -61,7 +60,6 @@ export default function HomePage() {
     "/Donaci-n-utiles/lapices.jpg",
     "/Donaci-n-utiles/lapiceros.webp",
     "/Donaci-n-utiles/cuuadernos.jpg",
-
   ]
 
   useEffect(() => {
@@ -70,8 +68,6 @@ export default function HomePage() {
     }, 5000)
     return () => clearInterval(timer)
   }, [heroImages.length])
-
-  
 
   const nextSlide = () => {
     setCurrentSlide((prev) => (prev + 1) % heroImages.length)
@@ -398,30 +394,42 @@ export default function HomePage() {
               <div className="bg-gradient-to-r from-blue-600 to-purple-600 p-3 rounded-lg">
                 <BookOpen className="h-8 w-8 text-white" />
               </div>
-              <h3 className="text-2xl font-bold">Útiles para Todos</h3>
+              <h3 className="text-2xl font-bold">EDUCATRUEQUE</h3>
             </div>
             <p className="text-gray-400 mb-8 max-w-2xl mx-auto">
               Transformando vidas a través de la educación. Cada niño merece la oportunidad de aprender y crecer.
               Juntos construimos un futuro mejor, un útil escolar a la vez.
             </p>
-            <div className="border-t border-gray-800 pt-8">
-              <p className="text-gray-500">
-                © 2025 Útiles para Todos. Hecho con ❤️ para cambiar el mundo, un niño a la vez.
-              </p>
+            
+            {/* Información de Contacto */}
+            <div className="border-t border-gray-800 pt-8 mb-8">
+              <h4 className="text-xl font-semibold mb-6 text-white">Contáctanos</h4>
+              <div className="flex flex-col md:flex-row justify-center items-center gap-6">
+                {/* WhatsApp */}
+                <a 
+                  href="https://wa.me/573053501972" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="flex items-center space-x-3 bg-green-600 hover:bg-green-700 px-6 py-3 rounded-lg transition-colors duration-300 group"
+                >
+                  <Phone className="h-5 w-5 text-white group-hover:scale-110 transition-transform" />
+                  <span className="text-white font-medium">+57 305 3501972</span>
+                </a>
+                
+                {/* Email */}
+                <a 
+                  href="mailto:Educatrueque4@gmail.com" 
+                  className="flex items-center space-x-3 bg-blue-600 hover:bg-blue-700 px-6 py-3 rounded-lg transition-colors duration-300 group"
+                >
+                  <Mail className="h-5 w-5 text-white group-hover:scale-110 transition-transform" />
+                  <span className="text-white font-medium">Educatrueque4@gmail.com</span>
+                </a>
+              </div>
             </div>
+            
             <div className="border-t border-gray-800 pt-8">
               <p className="text-gray-500">
-                EDUCATRUEQUE
-              </p>
-            </div>
-            <div className="border-t border-gray-800 pt-8">
-              <p className="text-gray-500">
-                +57 305 3501972
-              </p>
-            </div>
-            <div className="border-t border-gray-800 pt-8">
-              <p className="text-gray-500">
-                Educatrueque4@gmail.com
+                © 2025 EDUCATRUEQUE. Hecho con ❤️ para cambiar el mundo, un niño a la vez.
               </p>
             </div>
           </div>
