@@ -406,7 +406,7 @@ export default function HomePage() {
             </p>
             <div className="border-t border-gray-800 pt-8">
               <p className="text-gray-500">
-                © 2024 Útiles para Todos. Hecho con ❤️ para cambiar el mundo, un niño a la vez.
+                © 2025 Útiles para Todos. Hecho con ❤️ para cambiar el mundo, un niño a la vez.
               </p>
             </div>
           </div>
