@@ -21,12 +21,12 @@ export default function HomePage() {
     {
       nombre: "Madre Verónica",
       // REEMPLAZA ESTA IMAGEN: Pon aquí la foto del Colegio Madre Verónica
-      imagen: "www.educatrueque.gt.tc/madreveronica.jpg"
+      imagen: "https://www.educatrueque.gt.tc/madreveronica.jpg"
     },
     {
       nombre: "Eusebio Séptimo Mary", 
       // REEMPLAZA ESTA IMAGEN: Pon aquí la foto del Colegio Eusebio Séptimo Mary
-      imagen: "www.educatrueque.gt.tc/eusebio.jpg"
+      imagen: "https://www.educatrueque.gt.tc/eusebio.jpg"
     }
   ]
 
