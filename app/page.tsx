@@ -13,7 +13,7 @@ export default function HomePage() {
   const heroImages = [
     "/donacion1.webp",
     "https://www.educatrueque.gt.tc/carrusel2.png", 
-    "public/carrusel3.avif"
+    "./public/carrusel3.avif"
   ]
 
   // INFORMACIÓN DE LOS COLEGIOS (sin números inventados)
