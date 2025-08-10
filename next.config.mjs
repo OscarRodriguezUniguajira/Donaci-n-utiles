@@ -18,7 +18,7 @@ const nextConfig = {
     ],
   },
   output: 'export',
-  distDir: 'dist',
+  distDir: 'out',  // ← Cambié de 'dist' a 'out'
 }
 
 export default nextConfig
