@@ -56,10 +56,10 @@ export default function HomePage() {
 
   // AQUÍ PUEDES CAMBIAR LAS IMÁGENES DE ÚTILES DONADOS
   const utilesDonadosImages = [
-    "www.educatrueque.gt.tc/regla.webp",
-    "www.educatrueque.gt.tc/lapices.jpg",
-    "www.educatrueque.gt.tc/lapiceros.webp",
-    "www.educatrueque.gt.tc/cuuadernos.jpg",
+  "https://www.educatrueque.gt.tc/regla.webp",
+  "https://www.educatrueque.gt.tc/lapices.jpg",
+  "https://www.educatrueque.gt.tc/lapiceros.webp",
+  "https://www.educatrueque.gt.tc/cuadernos.jpg",
   ]
 
   useEffect(() => {

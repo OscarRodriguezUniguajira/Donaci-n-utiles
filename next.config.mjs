@@ -1,24 +1,18 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  eslint: {
-    ignoreDuringBuilds: true,
-  },
-  typescript: {
-    ignoreBuildErrors: true,
-  },
+  eslint: { ignoreDuringBuilds: true },
+  typescript: { ignoreBuildErrors: true },
+
   images: {
     unoptimized: true,
     remotePatterns: [
-      {
-        protocol: 'https',
-        hostname: 'www.educatrueque.gt.tc',
-        port: '',
-        pathname: '/**',
-      },
+      { protocol: 'https', hostname: 'www.educatrueque.gt.tc', pathname: '/**' },
+      { protocol: 'https', hostname: 'educatrueque.gt.tc', pathname: '/**' }, // opcional pero recomendable
     ],
   },
+
   output: 'export',
-  distDir: 'out',  // ← Cambié de 'dist' a 'out'
+  distDir: 'out',
 }
 
 export default nextConfig
