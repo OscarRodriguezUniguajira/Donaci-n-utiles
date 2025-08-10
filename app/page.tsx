@@ -12,8 +12,8 @@ export default function HomePage() {
   // AQUÍ PUEDES CAMBIAR LAS IMÁGENES DEL CARRUSEL PRINCIPAL
   const heroImages = [
     "/donacion1.webp",
-    "https://www.educatrueque.gt.tc/carrusel2.png", 
-    "./public/carrusel3.avif"
+    "/carrusel2.png", 
+    "/carrusel3.avif"
   ]
 
   // INFORMACIÓN DE LOS COLEGIOS (sin números inventados)
