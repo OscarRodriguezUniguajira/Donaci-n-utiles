@@ -8,13 +8,17 @@ const nextConfig = {
   },
   images: {
     unoptimized: true,
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'www.educatrueque.gt.tc',
+        port: '',
+        pathname: '/**',
+      },
+    ],
   },
-
   output: 'export',
   distDir: 'dist',
-
-  // basePath: '/Donaci-n-utiles',
-  // assetPrefix: '/Donaci-n-utiles',
 }
 
 export default nextConfig
