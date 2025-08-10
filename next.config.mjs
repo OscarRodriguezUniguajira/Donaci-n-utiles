@@ -13,8 +13,8 @@ const nextConfig = {
   output: 'export',
   distDir: 'dist',
 
-  basePath: '/EDUCATRUEQUE',
-  assetPrefix: '/EDUCATRUEQUE',
+  basePath: '/Donaci-n-utiles',
+  assetPrefix: '/Donaci-n-utiles',
 }
 
 export default nextConfig
