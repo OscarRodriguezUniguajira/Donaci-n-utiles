@@ -5,7 +5,7 @@ import './globals.css'
 
 export const metadata: Metadata = {
   title: 'Donaciones colegio',
-  description: 'Created with Oscar Rodriguez',
+  description: 'Created with AlfaCode 2025',
   generator: 'OR',
 }
 
