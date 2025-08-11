@@ -11,9 +11,9 @@ export default function HomePage() {
   
   // AQUÍ PUEDES CAMBIAR LAS IMÁGENES DEL CARRUSEL PRINCIPAL
   const heroImages = [
-    "https://www.educatrueque.gt.tc/donacion1.webp",
-    "https://www.educatrueque.gt.tc/carrusel2.png", 
-    "https://www.educatrueque.gt.tc/carrusel3.avif"
+    "/donacion1.webp",
+    "/carrusel2.png", 
+    "/carrusel3.avif"
   ]
 
   // INFORMACIÓN DE LOS COLEGIOS (sin números inventados)
@@ -21,12 +21,12 @@ export default function HomePage() {
     {
       nombre: "Madre Verónica",
       // REEMPLAZA ESTA IMAGEN: Pon aquí la foto del Colegio Madre Verónica
-      imagen: "https://www.educatrueque.gt.tc/madreveronica.jpg"
+      imagen: "/madreveronica.jpg"
     },
     {
       nombre: "Eusebio Séptimo Mary", 
       // REEMPLAZA ESTA IMAGEN: Pon aquí la foto del Colegio Eusebio Séptimo Mary
-      imagen: "https://www.educatrueque.gt.tc/eusebio.jpg"
+      imagen: "/eusebio.jpg"
     }
   ]
 
@@ -57,10 +57,10 @@ export default function HomePage() {
   // AQUÍ PUEDES CAMBIAR LAS IMÁGENES DE ÚTILES DONADOS
   const utilesDonadosImages = [
 
-  "https://www.educatrueque.gt.tc/regla.webp",
-  "https://www.educatrueque.gt.tc/lapices.jpg",
-  "https://www.educatrueque.gt.tc/lapiceros.webp",
-  "https://www.educatrueque.gt.tc/cuadernos.jpg",
+  "/regla.webp",
+  "/lapices.jpg",
+  "/lapiceros.webp",
+  "/cuadernos.jpg",
   ]
 
   useEffect(() => {
