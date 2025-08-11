@@ -11,7 +11,7 @@ export default function HomePage() {
   
   // AQUÍ PUEDES CAMBIAR LAS IMÁGENES DEL CARRUSEL PRINCIPAL
   const heroImages = [
-    "/donacion1.webp",
+    " /donacion1.webp",
     "/carrusel2.png", 
     "/carrusel3.avif"
   ]
