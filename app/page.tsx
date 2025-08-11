@@ -60,7 +60,7 @@ export default function HomePage() {
   "/regla.webp",
   "/lapices.jpg",
   "/lapiceros.webp",
-  "/cuadernos.jpg",
+  "/cuuadernos.jpg",
   ]
 
   useEffect(() => {
